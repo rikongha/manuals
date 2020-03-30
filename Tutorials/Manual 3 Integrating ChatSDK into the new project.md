@@ -102,7 +102,7 @@
    InterfaceManager.shared().a.startLoginActivity(context, true);
    ```
 
-10. Go back to your [Firebase Console](https://console.firebase.google.com/) , click on your app, click on **Database**. Scroll down to where it says **Realtime Database** and click on **Create database**. Start in locked mode and click **Enable**. Click the **Rules** tab. Delete everything in the box, then go to this [rules.json](https://github.com/chat-sdk/chat-sdk-android/blob/master/firebase-rules.json) file, copy everything in the box (approximately 355 lines), and paste it into the box in the firebase console. Click on **Publish**.
+10. Go back to your [Firebase Console](https://console.firebase.google.com/) , click on your app, click on **Database**. Scroll down to where it says **Realtime Database** and click on **Create database**. Start in locked mode and click **Enable**. Click the **Rules** tab. Delete everything in the box, then go to this [rules.json](https://github.com/chat-sdk/chat-sdk-firebase/blob/master/firebase.json) file, copy everything in the box (approximately 355 lines), and paste it into the box in the firebase console. Click on **Publish**.
 
 11. Go back to the Firebase Console and click **Storage** on the left hand side. Then click **Get Started** click **Got it**. Now file storage is activated and the Chat SDK will be able to save user profile pictures and send image messages. 
 
